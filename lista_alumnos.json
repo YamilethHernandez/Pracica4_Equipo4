@@ -1,0 +1,46 @@
+[
+    {
+        "item_id": 1,
+        "matricula": 918765432,
+        "nombre": "Juan",
+        "edad": 21,
+        "APaterno": "Mendez",
+        "AMaterno": "Cordova",
+        "correo": "Juan_mendez@gmail.com",
+        "telefono": 9631682340,
+        "carrera": "IRyC"
+    },
+    {
+        "item_id": 3,
+        "matricula": 918765434,
+        "nombre": "Maria",
+        "edad": 20,
+        "APaterno": "Roblero",
+        "AMaterno": "Mejia",
+        "correo": "mari_rob@gmail.com",
+        "telefono": 9631682230,
+        "carrera": "IRyC"
+    },
+    {
+        "item_id": 4,
+        "matricula": 123456789,
+        "nombre": "Jes\u00fas",
+        "edad": 40,
+        "APaterno": "Morales",
+        "AMaterno": "Gutierrez",
+        "correo": "Jesus_moral@gmail.com",
+        "telefono": 9631682240,
+        "carrera": "IRyC"
+    },
+    {
+        "item_id": 5,
+        "matricula": 123456788,
+        "nombre": "Wilber",
+        "edad": 33,
+        "APaterno": "Pe\u00c3\u00b1aloza",
+        "AMaterno": "Mendoza",
+        "correo": "wilber_mendoza@gmail.com",
+        "telefono": 9631682140,
+        "carrera": "IRyC"
+    }
+]
