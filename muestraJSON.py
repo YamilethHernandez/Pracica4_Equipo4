@@ -24,8 +24,14 @@ async def guardarJSON(datosAgregar:List):
 
 @app.get("/inicio/", response_class=HTMLResponse)
 async def read_item(request: Request):
-    return miPlantilla.TemplateResponse("index.html",{"request":request})
+    integrantes = await cargarJSON()
+    return miPlantilla.TemplateResponse("index.html",{"request":request, "integrantes": integrantes})
 
+@app.get("/integrante/{id}", response_class=HTMLResponse)
+async def integrante(request: Request, id:int):
+    integrantes = await cargarJSON()
+    integrante = integrantes[id]
+    return miPlantilla.TemplateResponse("integrantes.html",{"request":request, "integrante": integrante})
 
 @app.get("/lista", response_class=HTMLResponse)
 async def iniciar(request: Request):
