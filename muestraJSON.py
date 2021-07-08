@@ -36,7 +36,7 @@ async def integrante(request: Request, id:int):
 @app.get("/lista", response_class=HTMLResponse)
 async def iniciar(request: Request):
     datos = await cargarJSON()
-    return miPlantilla.TemplateResponse("listaIntegrantes.html",{"request":request,"lista":datos})
+    return miPlantilla.TemplateResponse("listaIntegrantes.html",{"request":request,"lista":datos, "alumno": None})
 
 
 @app.post("/agregar")
