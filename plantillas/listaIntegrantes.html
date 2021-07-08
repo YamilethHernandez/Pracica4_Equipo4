@@ -33,7 +33,7 @@
                         </tr>
                     {% endfor %}
                     <tr scope="row">
-                        <form method="POST" action="{{'/actualizar' if alumno else '/agregar'}}"></form>
+                        <form method="POST" action="{{'/actualizar' if alumno else '/agregar'}}">
                         <td>
                             {% if alumno %}
                             {{alumno['item_id']}}
