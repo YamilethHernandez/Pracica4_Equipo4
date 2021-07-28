@@ -112,3 +112,4 @@ async def actualizar(request:Request):
     await guardarJSON(datos)
 
     return RedirectResponse("/lista",303)
+
