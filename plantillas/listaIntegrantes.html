@@ -19,6 +19,7 @@
                     <th scope="col">Correo</th>
                     <th scope="col">Telefono</th>
                     <th scope="col">carrera</th>
+                    <th>Acciones</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -29,7 +30,7 @@
                             {% endfor %}
                             <!-- <td><a href="/eliminar/{{fila.get('item_id')}}"><button class="btn btn-danger">Eliminar</button></a></td> -->
                             <td><a href="/eliminar/{{lista.index(fila)}}"><button class="btn btn-danger">Eliminar</button></a></td>
-                            <td><a href="/modificar/{{lista.index(fila)}}"><button class="btn btn-danger">Modificar</button></a></td>
+                            <td><a href="/modificar/{{lista.index(fila)}}"><button class="btn btn-info">Modificar</button></a></td>
                         </tr>
                     {% endfor %}
                     <tr scope="row">
